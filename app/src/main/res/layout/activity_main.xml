@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/background_light"
+    android:gravity="center"
+    android:backgroundTint="#edede9"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD MANAGER"
+        android:textSize="32sp"
+        android:textColor="#CBB267"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginBottom="25dp"
+
+        />
+
+    <ListView
+        android:id="@+id/passwordList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="4dp"
+        android:divider="#8d99ae"
+        />
+
+    <Button
+        android:id="@+id/addPasswordButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_password"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#bee3db"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>
